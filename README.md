@@ -31,8 +31,6 @@ Complete the following exercises, placing your solutions into separate module fi
 
 1. Ensure that your code and test modules are properly commented, and that you have correctly used docstrings to document your functions and module. Check that the python `help()` command correctly shows those docstrings in an interpreter. You should do this for all your python modules from now on.
 
-1. Run the command `pylint` on both your modules to check for correct conventions. Fix your source files until `pylint` returns a clean report. You should do this for all your python modules from now on.
-
 1. Make sure you complete the Jupyter notebook, paying special care to format it well, and discuss the problem in full. Imagine that you will give this notebook to a colleague later for critique on both the content and the presentation of that content.
 
 Pro-tip: using git to manage conflicts on Jupyter notebooks is a pain. I recommend delegating one person from your group to edit the notebook, to avoid merge conflicts.
