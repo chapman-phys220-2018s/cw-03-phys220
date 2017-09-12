@@ -27,7 +27,7 @@
 
 * Edit the README.md file:
     * Change _\<your name\>_ and _\<date\>_ at the beginning of the file
-    * Edit the line ```[![Build Status](https://travis-ci.org/chapman-phys220-2016f/UPDATETHIS.svg?branch=master)](https://travis-ci.org/chapman-phys220-2016f/UPDATETHIS)``` replacing both instances of ```UPDATETHIS``` with the name of this repository (should be something like ```hw-1-<your git name>```)
+    * Edit the line ```[![Build Status](https://travis-ci.org/chapman-phys220-2017f/UPDATETHIS.svg?branch=master)](https://travis-ci.org/chapman-phys220-2017f/UPDATETHIS)``` replacing both instances of ```UPDATETHIS``` with the name of this repository (should be something like ```hw-1-<your git name>```)
     * Add your own text in the __Assessment__ section. This text is taken seriously for continued course development, so be honest.
     * Reread the __Honor Pledge__ again and 'sign' it with your name at the end
 
