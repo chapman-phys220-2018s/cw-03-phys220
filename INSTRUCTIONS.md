@@ -30,9 +30,9 @@
     * Add your own text in the __Assessment__ section. This text is taken seriously for continued course development, so be honest.
     * Reread the __Honor Pledge__ again and 'sign' it with your name at the end
 
-* Connnect the repository to Travis CI
-    * On the GitHub site, go to the upper-right menu, then to ```Integrations```
-    * Click on ```Travis CI``` and Add the service. Authorize it if necessary.
+* Connect the repository to Travis CI
+    * On the Travis site log in and authorize GitHub if needed.
+    * Ask the instructor to enable testing on this repository.
 
 * Correctly document each source file
     * Refer to the templates in the info repository for more information    
