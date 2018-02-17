@@ -8,8 +8,11 @@ def g(x):
     return value
 
 def interval(f,a,b,dx):
-    n = (b - a)/dx
-    inter = [f(a+k*dx) for k in range(n+1)]
+    k = 0
+    inter = []
+    while a+k*dx <= b:
+        inter.append(f(a+k*dx))
+        k+=1
     return inter
 
 def integrate(i,dx):
