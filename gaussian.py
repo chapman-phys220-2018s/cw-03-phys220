@@ -33,7 +33,7 @@ def interval(f,a,b,dx):
     if dx==0 or (b-a)<dx:
         return inter
 
-    while a+k*dx <= b:
+    while a+k*dx < b:
         inter.append(f(a+k*dx))
         k+=1
     return inter
