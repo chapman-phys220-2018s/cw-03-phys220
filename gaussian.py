@@ -30,7 +30,7 @@ def interval(f,a,b,dx):
                     dx- spacing between coordinates"""
     k = 0
     inter = []
-    if dx==0:
+    if dx==0 or (b-a)<dx:
         return inter
 
     while a+k*dx <= b:
@@ -45,7 +45,7 @@ def integrate(i,dx):
         return 0
 
     #regarding range(n), is n the number of intervals between a and b like in the prompt? The way we have it set up, there is
-    #no way to ensure it is an int while still getting the right values for everything else.  May not work with with range. . . 
+    #no way to ensure it is an int while still getting the right values for everything else.  May not work with with range. . .
     for k in range(n):
         integral = 0
         rect_area = i[k]*dx
