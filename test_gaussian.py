@@ -36,7 +36,7 @@ def test_interval():
     """Tests known special cases of the interval"""
     actual = []
     trial = gaussian.interval(g(0),1,1,2)
-    print("Testing a=b : ", actual, " ?= ", trial)
+    print("Testing when dx>b-a : ", actual, " ?= ", trial)
     assert actual==trial
 
     trial = gaussian.interval(g(0), 1, 2, 0)
