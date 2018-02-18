@@ -30,6 +30,9 @@ def interval(f,a,b,dx):
                     dx- spacing between coordinates"""
     k = 0
     inter = []
+    if dx==0:
+        return []
+    
     while a+k*dx <= b:
         inter.append(f(a+k*dx))
         k+=1
@@ -38,6 +41,7 @@ def interval(f,a,b,dx):
 def integrate(i,dx):
     """Arguments    i- generated interval
                     dx- spacing between each step"""
+    if 
     for k in range(n):
         integral = 0
         rect_area = i[k]*dx
