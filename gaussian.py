@@ -31,8 +31,8 @@ def interval(f,a,b,dx):
     k = 0
     inter = []
     if dx==0:
-        return []
-    
+        return inter
+
     while a+k*dx <= b:
         inter.append(f(a+k*dx))
         k+=1
@@ -41,9 +41,16 @@ def interval(f,a,b,dx):
 def integrate(i,dx):
     """Arguments    i- generated interval
                     dx- spacing between each step"""
-    if 
+    if i == []:
+        return 0
+
+    #regarding range(n), is n the number of intervals between a and b like in the prompt? The way we have it set up, there is
+    #no way to ensure it is an int while still getting the right values for everything else.  May not work with with range. . . 
     for k in range(n):
         integral = 0
         rect_area = i[k]*dx
         integral += rect_area
     return integral
+
+
+
