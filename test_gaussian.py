@@ -41,7 +41,7 @@ def test_interval():
 
     trial = gaussian.interval(g(0), 1, 2, 0)
     print("Testing dx=0: ", actaul, " ?= ", trial)
-    ########
+    assert actual==trial
 
 def test_integrate():
     """Checks the integration for correctness"""
