@@ -40,6 +40,6 @@ def integrate(i,dx):
                     dx- spacing between each step"""
     for k in range(n):
         integral = 0
-        rect_area = i(k)*dx
+        rect_area = i[k]*dx
         integral += rect_area
     return integral
