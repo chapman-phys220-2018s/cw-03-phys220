@@ -39,9 +39,10 @@ def interval(f,a,b,dx):
     return inter
 
 def integrate(i,dx):
-    for k in range(len(i)):
     """Arguments    i- generated interval
                     dx- spacing between each step"""
+    for k in range(len(i)):
+
         if i == []:
             return 0
         else:
