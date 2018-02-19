@@ -1,5 +1,17 @@
 #!/usr/bin/env python3
 
+#Daniel Chang
+#2260161
+#Chang254@mail.chapman.edu
+#Myranda Hoggatt
+#2285495
+#hogga102@mail.chapman.edu
+#Devon Ball
+#2313078
+#dball@chapman.edu
+#PHYS220 Spring 2018
+#CW03 Exercise 1
+
 """Gaussian Module Unit Tests"""
 
 import nose
@@ -19,4 +31,21 @@ def test_g():
     # an assert command is the actual test
     # for floats, be sure to use assert_almost_equal instead (here to 4 digits)
     nose.tools.assert_almost_equal(actual, trial, 4)
+
+def test_interval():
+    """Tests known special cases of the interval"""
+    actual = []
+    trial = gaussian.interval(g(0),1,1,2)
+    print("Testing when dx>b-a : ", actual, " ?= ", trial)
+    assert actual==trial
+
+    trial = gaussian.interval(g(0), 1, 2, 0)
+    print("Testing dx=0: ", actaul, " ?= ", trial)
+    assert actual==trial
+
+def test_integrate():
+    """Checks the integration for correctness"""
+
+def test_gauss_norm():
+    """Checks for correct approximation when dx is small"""
 
