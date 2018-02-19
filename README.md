@@ -37,7 +37,7 @@ Pro-tip: using git to manage conflicts on Jupyter notebooks is a pain. I recomme
 
 ## Assessment
 
-- it's super convienent to have Travis checking for errors (MH)
+- it's super convenient to have Travis checking for errors (MH)
 
 **CHANGEME**
 
@@ -50,4 +50,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**Myranda**
+**Myranda, Devon**
