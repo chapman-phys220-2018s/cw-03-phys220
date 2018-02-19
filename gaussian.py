@@ -16,7 +16,7 @@ def interval(f,a,b,dx):
     return inter
 
 def integrate(i,dx):
-    for k in range(n):
+    for k in range(len(i)+1):
         integral = 0
         rect_area = i(k)*dx
         integral += rect_area
