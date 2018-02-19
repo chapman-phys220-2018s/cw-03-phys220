@@ -59,7 +59,7 @@ def test_gauss_norm():
     # This value was calculated with an online definite integral solver.
     trial= gaussian.integrate(gaussian.g(-5,5,.05),.05)
     print("This tests the interval from -5 to 5 with small step size of .05: ",actual,"?=",trial)
-    nose.tools.assert_almost_equal(actual, trial, 5)
+    nose.tools.assert_almost_equal(actual, trial, 4)
 
 
 
