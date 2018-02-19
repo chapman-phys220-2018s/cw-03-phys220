@@ -33,10 +33,10 @@ def test_g():
     nose.tools.assert_almost_equal(actual, trial, 4)
 
 def test_interval():
-    """Tests known special cases of the interval"""
-    actual = []
-    trial = gaussian.interval(g(0),1,1,2)
-    print("Testing when dx>b-a : ", actual, " ?= ", trial)
+    """Tests known special cases of the interval. In this particular case, interval 0 to 1 with step size .2"""
+    actual = [gaussian(0),gaussian(.2),gaussian(.4),gaussian(.6),gaussian(.8),gaussian(1)]
+    trial = gaussian.interval(gaussian.g,0,1,.2)
+    print("Testing interval 0 to 1:",actual," ?= ",trial)
     assert actual==trial
 
     trial = gaussian.interval(g(0), 1, 2, 0)
@@ -45,10 +45,12 @@ def test_interval():
 
 def test_integrate():
     """Checks the integration for correctness
-    Test: integrate from 0 to 5 with spacing of steps at .5 (dx=.5)"""
-    actual= []
-    trial=gaussian.integrate([0,5],.5)
-
+    Test: integrate from 0 to 2 with spacing of steps at .5 (dx=.5)"""
+    actual= 4.34441
+    # This value was calculated with an online definite integral solver.
+    trial= gaussian.integrate ([0,1,2],.5)
+    print("This tests the interval from 0 to 2 with step size of .5: ",actual,"?=",trial)
+    nose.tools.assert_almost_equal(actual, trial, 5)
 
 def test_gauss_norm():
     """Checks for correct approximation when dx is small"""
