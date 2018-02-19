@@ -45,8 +45,10 @@ def test_interval():
 
 def test_integrate():
     """Checks the integration for correctness
-    Test: integrate from 0 to 2 with spacing of steps at .5 (dx=.5)"""
-    actual = 1/2*(2*gaussian.g(0)+2*gaussian.g(.5)+2*gaussian.g(1)+2*gaussian.g(1.5)+2*gaussian.g(2))
+    Test: integrate from 0 to 5 with spacing of steps at .5 (dx=.5)"""
+    actual= []
+    trial=gaussian.integrate([0,5],.5)
+
 
 def test_gauss_norm():
     """Checks for correct approximation when dx is small"""
