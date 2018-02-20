@@ -39,7 +39,7 @@ Pro-tip: using git to manage conflicts on Jupyter notebooks is a pain. I recomme
 
 - it's super convenient to have Travis checking for errors (MH)
 
-**CHANGEME**
+- This assignment was really good for learning how to create test functions (DC)
 
 ## Honor Pledge
 
@@ -50,4 +50,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**Myranda, Devon**
+**Myranda, Devon, Daniel**

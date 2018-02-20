@@ -47,11 +47,11 @@ def integrate(i,dx):
     This function takes the integral of the interval using a riemann sum with left endpoints.
     Arguments    i- generated interval
                     dx- spacing between each step"""
+    integral = 0
     for k in range(len(i)-1):
         if i == []:
             return 0
         else:
-            integral = 0
             rect_area = i[k]*dx
             integral += rect_area
     return integral
