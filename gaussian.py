@@ -38,18 +38,11 @@ def interval(f,a,b,dx):
         k+=1
     return inter
 
-def integrate(i,dx):
-    """Arguments    i- generated interval
-                    dx- spacing between each step"""
-    for k in range(len(i)):
-
-        if i == []:
-            return 0
-        else:
-            integral = 0
-            rect_area = i[k]*dx
-            integral += rect_area
-    return integral
-
+def integrate2(i,dx):
+    sum=0
+    for k in range (len(i)):
+        sum+=2*i[k]
+    sum= (dx/2)*sum
+    return sum
 
 
