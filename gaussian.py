@@ -57,4 +57,3 @@ def integrate(i,dx):
     return integral
 
 
-

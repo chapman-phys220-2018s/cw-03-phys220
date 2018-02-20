@@ -1,0 +1,6 @@
+{"exec_count":1,"start":1519106918257,"input":"import math\nimport gaussian\n","state":"done","pos":1,"type":"cell","end":1519106918286,"id":"33096e","kernel":"anaconda3"}
+{"type":"cell","id":"28e11f","pos":3,"input":""}
+{"type":"cell","id":"4611bd","pos":4,"input":""}
+{"type":"cell","id":"a6b500","pos":2,"input":"# CW 03\n\nMyranda, Devon, Daniel\nFeb. 20 2018\n\n## Exercise 2\nLook at the Gaussian function $g(x)=\\frac{1}{\\sqrt{2\\pi}}exp{\\frac{-x^2}{2}}$. Verify numerically that the integral of this function is normalized to 1.\n","cell_type":"markdown"}
+{"type":"file","last_load":1519106746950}
+{"type":"settings","kernel":"anaconda3","backend_state":"running","trust":true,"kernel_usage":{"cpu":0,"memory":85934080},"kernel_state":"idle"}

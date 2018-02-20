@@ -1,6 +1,6 @@
 # PHYS220 CW 3
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Daniel, Devon, Myranda**
 
 [![Build Status](https://travis-ci.org/chapman-phys220-2018s/cw-03-phys220.svg?branch=master)](https://travis-ci.org/chapman-phys220-2018s/cw-03-phys220)
 
@@ -37,7 +37,7 @@ Pro-tip: using git to manage conflicts on Jupyter notebooks is a pain. I recomme
 
 ## Assessment
 
-Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
+- it's super convenient to have Travis checking for errors (MH)
 
 **CHANGEME**
 
@@ -50,4 +50,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Myranda, Devon**
