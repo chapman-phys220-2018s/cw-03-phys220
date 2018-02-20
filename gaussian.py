@@ -38,7 +38,7 @@ def interval(f,a,b,dx):
         k+=1
     return inter
 
-def integrate2(i,dx):
+def integrate(i,dx):
     sum=0
     for k in range (len(i)):
         sum+=2*i[k]
