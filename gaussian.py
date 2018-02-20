@@ -20,7 +20,7 @@ import math
 Verify numerically that the integral of g(x) is normalized to 1.  This file contains three functions, a gaussian function,
 a function that creates intervals, and a function that takes the integral of an interval"""
 
-def g(x):
+def g(x=0):
     """Gaussian function for given parameter: x"""
     value = (1/math.sqrt(2*math.pi))*math.exp(-(x**2)/2)
     return value
